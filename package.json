@@ -1,7 +1,7 @@
 {
   "name": "natours",
   "version": "1.0.0",
-  "description": "Landing page for natours",
+  "description": "Natours project for Udemy's Advanced CSS and Sass course, designed and instructed by Jonas Schmedtmann",
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
@@ -13,8 +13,16 @@
     "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
     "build:css": "npm-run-all compile:sass concat:css prefix:css compress:css"
   },
-  "author": "Nathaniel",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njgorton/natours_advanced-css-and-sass-course.git"
+  },
+  "author": "Nathaniel Gorton",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/njgorton/natours_advanced-css-and-sass-course/issues"
+  },
+  "homepage": "https://github.com/njgorton/natours_advanced-css-and-sass-course#readme",
   "dependencies": {
     "module": "0.0.x"
   },
